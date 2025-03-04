@@ -9,7 +9,7 @@
     - name: update ec2 instance
       yum:
         name: "*"
-        state: Latest
+        state: latest
         update_cache: yes
 
     - name: install apache server
